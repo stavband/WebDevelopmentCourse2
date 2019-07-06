@@ -1,0 +1,235 @@
+﻿<!doctype html>
+<html lang="hr">
+<head>
+    <meta charset="utf-8" />
+    <title>Goal Girls</title>
+    <meta name="description" content="לימוד משחקי כדור בצורה פשוטה לנשים" />
+    <meta name="keywords" content="משחקי כדור,כדורגל,כדורסל,טניס,באולינג,נשים,כדור,למידה" />
+    <meta name="author" content="Hadar Sivi, Stav Band, Mirit Elimelech" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="icon" href="images/logotop.png">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+
+<body onload="tab_nav()">
+
+    <div id="container">
+        <article>
+           
+            <a id="skip" href="#openingimage">דלג לתוכן העמוד</a>            
+            <header>
+
+                <!--לוגו-->
+                <h1>
+                    <a id="alogo" href="index.html">
+                        <img id="logo" src="images/logo.png" alt="Goal Girls logo" aria-label="לחצי לדף הבית" /> - פשוט להבין
+                    </a>
+                </h1>
+                <!--תפריט ראשי-->
+                <nav id="main" aria-label="תפריט ראשי">
+                    <ul>
+                        <li>
+                            <a class="notActive" aria-label="לא פעיל משחקי כדור" href="#"> משחקי כדור </a>
+                            <ul>
+                                <li> <a href="soccer.html"> כדורגל </a> </li>
+                                <li> <a href="basketball.html"> כדורסל </a> </li>
+                                <li> <a class="notActive" aria-label=" טניס לא פעיל" href="#"> טניס </a> </li>
+                                <li> <a class="notActive" aria-label=" באולינג לא פעיל" href="#"> באולינג </a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="notActive" aria-label=" קבוצות פופולאריות לא פעיל" href="#"> קבוצות פופולאריות </a>
+                            <ul>
+                                <li><a class="notActive" aria-label="קבוצות כדורגל לא פעיל  " href="#"> קבוצות כדורגל </a></li>
+                                <li><a class="notActive" aria-label=" קבוצות כדורסל לא פעיל" href="#"> קבוצות כדורסל </a></li>
+                                <li><a class="notActive" aria-label=" שחקני טניס לא פעיל" href="#"> שחקני טניס </a></li>
+                                <li><a class="notActive" aria-label=" שחקני באולינג לא פעיל   " href="#"> שחקני באולינג </a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="notActive" aria-label=" משחקים קרובים לא פעיל" href="#"> משחקים קרובים </a> </li>
+                        <li>
+                            <a class="notActive" aria-label="אביזרים נלווים לא פעיל" href="#"> אביזרים נלווים </a>
+                            <ul>
+                                <li><a class="notActive" aria-label="אביזרים כדורגל לא פעיל " href="#"> אביזרים כדורגל </a></li>
+                                <li><a class="notActive" aria-label="אביזרים כדורסל לא פעיל" href="#"> אביזרים כדורסל </a></li>
+                                <li><a class="notActive" aria-label=" אביזרים טניס לא פעיל" href="#"> אביזרים טניס </a></li>
+                                <li><a class="notActive" aria-label="אביזרים באולינג לא פעיל " href="#"> אביזרים באולינג </a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="about.html"> אודות </a> </li>
+
+                    </ul>
+                </nav>
+            </header>
+            
+                <!--תמונת פתיחה-->
+            
+            <div id="openingimage" aria-label="תמונה של אישה ואיש צופים בכדורגל">  <p id="openingsentence">לא תאמיני כמה זה פשוט- להבין משחקי כדור</p></div>
+
+    <!--תפריט תמונות משחקי כדור-->
+    <nav id="second"aria-label="תפריט משחקי כדור">
+        <ul>
+            <li class="soccermenu">
+                <a href="soccer.html">
+                    <span>כדורגל</span>
+                </a>
+            </li>
+            <li class="basketballmenu">
+                <a href="basketball.html">
+                    <span>כדורסל</span>
+                </a>
+            </li>
+            <li class="tennismenu">
+                <a class="notActive" aria-label=" טניס לא פעיל" href="#">
+                    <span>טניס</span>
+                </a>
+            </li>
+            <li class="bowlingmenu">
+                <a class="notActive" aria-label="באולינג לא פעיל " href="#">
+                    <span>באולינג</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="topcarusel">
+        <h2 id="titlecarousel">עושות סדר</h2><br />
+        <nav class="Third">
+            <ul>
+                <li class="Thirdsoccer">כדורגל</li>
+                <li class="Thirdbasketball">כדורסל</li>
+                <li class="Thirdtennis">טניס</li>
+                <li class="Thirdbowling">באולינג</li>
+            </ul>
+        </nav>
+    </section>
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <section class="carousel-caption d-none d-md-block " aria-label="קרוסלת מושגים">
+                        <div id="arrow1"></div>
+                        <h3 class="bottomtitle ">עבירה</h3>  <div class="Light">(Foul) שם עצם,נקבה</div> <br /><br />
+                        <p class="pcarusel">
+                            עבירה המתבצעת כאשר אחד השחקנים <br />
+                            עובר על אחד מחוקי המשחק.
+                        </p>
+                        <a class="more" href="soccer.html">קראי עוד...</a>
+                    </section>
+                </div>
+                <div class="carousel-item">
+
+                    <section class="carousel-caption d-none d-md-block">
+                        <div id="arrow2"></div>
+                        <h3 class="bottomtitle ">בנק שוט</h3>  <div class="Light">
+                            (Bank Shot) שם עצם, זכר
+                        </div>  <br /><br />
+
+
+                        <p class="pcarusel">
+                            קליעה לסל בעזרת הלוח,  <br />
+                            לרוב נעשה מזווית של 45 מעלות לסל.
+
+                        </p>
+                        <a class="more" href="basketball.html">קראי עוד...</a>
+                    </section>
+                </div>
+                <div class="carousel-item">
+
+                    <section class="carousel-caption d-none d-md-block">
+                        <div id="arrow3"></div>
+                        <h3 class="bottomtitle ">בייגל</h3>  <div class="Light">(Bagel) שם עצם, זכר</div>  <br /><br />
+                        <p class="pcarusel">
+                            ניצחון או הפסד מערכה בתוצאה 0-6. <br />
+                            נקרא על שום כך שהצורה של הסיפרה 0 מזכירה צורה של כעך -בייגל בלעז.
+                        </p>
+                        <a class="notActive more" href="#">קראי עוד...</a>
+                    </section>
+
+                </div>
+                <div class="carousel-item">
+
+
+                    <section class="carousel-caption d-none d-md-block">
+                        <div id="arrow4"></div>
+                        <h3 class="bottomtitle ">פיצול</h3>  <div class="Light">(Split) שם עצם, זכר</div>  <br /><br />
+                        <p class="pcarusel">
+                            הפלת חלק מהפינים<br />
+                            כך שישארו פינים עם רווח ביניהם
+                        </p>
+                        <a class="notActive more" href="#">קראי עוד...</a>
+                    </section>
+
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <footer>
+        <nav id="footermenu">
+            <ul>
+                <li>
+                    <a href="about.html"> אודות</a>
+                    <div class="about"></div>
+                </li>
+
+
+
+                <li>
+                    <a href="contactus.html">צרי קשר</a>
+                    <div class="ContactUs"></div>
+                </li>
+
+
+
+                <li>
+                    <a class="notActive" aria-label="משחקים קרובים לא פעיל" href="#">משחקים קרובים</a>
+                    <div class=" Gamescomingsoon"></div>
+                </li>
+
+
+
+                <li>
+                    <a href="map.html">מפת האתר</a>
+                    <div class="map"></div>
+                </li>
+
+
+            </ul>
+        </nav>
+
+        <p>   כל הזכויות שמורות   Goal Girls  ©  </p>
+
+    </footer>
+
+        </article>
+    </div>
+
+</body>
+</html>

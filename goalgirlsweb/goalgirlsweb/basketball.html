@@ -1,0 +1,308 @@
+﻿<!doctype html>
+<html lang="hr">
+<head>
+    <meta charset="utf-8" />
+    <title>Goal Girls-כדורסל</title>
+    <meta name="description" content="הבנת משחק הכדורסל" />
+    <meta name="keywords" content="משחק הכדורסל,מושגים,כדורסל,למידה, חוקים" />
+    <meta name="author" content="Hadar Sivi, Stav Band, Mirit Elimelech" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="icon" href="images/logotop.png">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+
+<body onload="tab_nav()">
+
+    <div id="container">
+        <a id="skip" href="#mainContent">דלג לתוכן העמוד</a>
+        <header>
+            <!--לוגו-->
+
+            <a id="alogo" href="index.html">
+                <img id="logo" src="images/logo.png" alt="Goal Girls logo" aria-label="לחצי לדף הבית" /> - פשוט להבין
+            </a>
+
+            <!--תפריט ראשי-->
+            <nav id="main"aria-label="תפריט ראשי">
+                <ul>
+                    <li>
+                        <a class="notActive currentPage" aria-label="משחקי כדור לא פעיל" href="#"> משחקי כדור </a>
+                        <ul>
+                            <li> <a href="soccer.html"> כדורגל </a> </li>
+                            <li> <a href="basketball.html"> כדורסל </a> </li>
+                            <li> <a class="notActive" aria-label="טניס לא פעיל" href="#"> טניס </a> </li>
+                            <li> <a class="notActive" aria-label="באולינג לא פעיל " href="#"> באולינג </a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="notActive" aria-label="קבוצות פופולאריות לא פעיל" href="#"> קבוצות פופולאריות </a>
+                        <ul>
+                            <li><a class="notActive" aria-label="קבוצות כדורגל לא פעיל" href="#"> קבוצות כדורגל </a></li>
+                            <li><a class="notActive" aria-label="קבוצות כדורסל לא פעיל" href="#"> קבוצות כדורסל </a></li>
+                            <li><a class="notActive" aria-label="שחקני טניס לא פעיל" href="#"> שחקני טניס </a></li>
+                            <li><a class="notActive" aria-label="שחקני באולינג לא פעיל" href="#"> שחקני באולינג </a></li>
+                        </ul>
+                    </li>
+                    <li> <a class="notActive" aria-label="משחקים קרובים לא פעיל" href="#"> משחקים קרובים </a> </li>
+                    <li>
+                        <a class="notActive" aria-label="אביזרים נלווים לא פעיל" href="#"> אביזרים נלווים </a>
+                        <ul>
+                            <li><a class="notActive" aria-label="אביזרים כדורגל לא פעיל" href="#"> אביזרים כדורגל </a></li>
+                            <li><a class="notActive" aria-label="אביזרים כדורסל לא פעיל" href="#"> אביזרים כדורסל </a></li>
+                            <li><a class="notActive" aria-label="אביזרים טניס לא פעיל" href="#"> אביזרים טניס </a></li>
+                            <li><a class="notActive" aria-label="אביזרים באולינג לא פעיל" href="#"> אביזרים באולינג </a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="about.html"> אודות </a> </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!--תחילת עמוד התוכן-->
+        <article id="mainContent">
+
+            <h1 class="banerbasketball">כדורסל</h1>
+
+            <nav>
+                <ol>
+                    <li> <a href="index.html">דף הבית </a> </li>
+                    <li> <a class="notActive" aria-label="משחקי כדור לא פעיל" href="#"> משחקי כדור</a> </li>
+                    <li>כדורסל</li>
+                </ol>
+            </nav>
+
+
+            <nav class="buttons basketballbuttons">
+                <ul>
+                    <li> <a href="#makingorder"aria-label="לחצי לתוכן עושות סדר">עושות סדר</a></li>
+                    <li> <a href="#cracktherules"aria-label="לחצי לתוכן לפצח את החוקים">לפצח את החוקים</a></li>
+                    <li> <a class="notActive" aria-label="מבנה המגרש לא פעיל" href="#structureoftheplot">מבנה המגרש</a></li>
+                </ul>
+            </nav>
+
+
+            <section>
+
+                <h2 id="makingorder">עושות סדר</h2>
+
+                <section class="basketballconcept">
+                    <h3>איירבול</h3><p>זריקה לסל שלא פוגעת פיזית בלוח ובטבעת. </p>
+                    <!--תמונה של איירבול-->
+                    <div id="airball"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>בנק שוט</h3><p>קליעה לסל בעזרת הלוח, לרוב נעשית מזווית של 45 מעלות לסל.</p>
+                    <!--תמונה בנק שוט-->
+                    <div id="bankshot"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>מסירת בייסבול</h3><p> מסירה לטווחים ארוכים המתבצעת ביד אחת.</p>
+                    <!--תמונה של מסירת בייסבול-->
+                    <div id="baseball"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>בייסליין</h3><p>קו הרוחב של המגרש, הקו שמתחת לסל.</p>
+                    <!--תמונה בייסליין-->
+                    <div id="baseline"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>מסירת חזה</h3><p>מסירה משחקן לשחקן כשהמטרה היא למסור את הכדור מאזור החזה של השחקן המוסר לאזור החזה של השחקן המקבל.</p>
+                    <!--תמונה מסירת חזה-->
+                    <div id="passaball"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>קליעת עונשין</h3><p>לשחקן ברחבת יריב אשר פוגעים בו פיזית ניתנת האפשרות לנסות לקלוע את הכדור לסל.</p>
+                    <!--תמונה קליעת עונשין-->
+                    <div id="shootingpenalty"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>קשת השלוש</h3><p>סימון בצורת חצי עיגול על רצפת מגרש הכדורסל מסביב לכל אחד מהסלים.</p>
+                    <!--תמונה קשת השלוש-->
+                    <div id="rainbowthree"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>שלשה</h3><p>מונח המתאר קליעה מדוייקת של הכדור לסל המתבצעת מעבר לקשת השלוש ומעניקה שלוש נקודות .</p>
+                    <!--תמונה של שלשה-->
+                    <div id="Three"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>חטיפה</h3><p>מתרחשת כאשר שחקן  גורם בפעולתו, באופן חוקי, למעבר הכדור לקבוצה שלו.</p>
+                    <!--תמונה חטיפה-->
+                    <div id="snatch"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>חסימה</h3><p>מתרחשת כאשר שחקן  מסיט את הכדור, באופן חוקי, בניסיון זריקה של שחקן הקבוצה היריבה.</p>
+                    <!--תמונה חסימה-->
+                    <div id="obstruction"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>לייאפ</h3><p>בעברית- צעד וחצי. אחד המהלכים הפופולריים והבסיסיים ביותר בכדורסל. המהלך מתבצע בכניסה לסל בשני צעדים קטנים והגשה או זריקה מיידית לסל.</p>
+                    <!--תמונה לייאפ-->
+                    <div id="layup"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>הטבעה</h3><p>הכנסה ישירה של הכדור לטבעת הסל באמצעות יד אחת או שתי ידיים.</p>
+                    <!--תמונה הטבעה-->
+                    <div id="hit"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>זריקת וו</h3><p>זריקה לסל ביד אחת המאופיינת בכך שהשחקן מיישר יד אחת ומשחרר את הכדור כשידו מתוחה.</p>
+                    <!--תמונה זריקת וו-->
+                    <div id="hookvav"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>ריבאונד</h3><p>כדור חוזר בכדורסל הוא תפיסת הכדור לאחר שזריקה הוחטאה, הוא מקנה לקבוצה הזוכה בכדור הזדמנות נוספת לקלוע לסל של הקבוצה היריבה ומונע מהיריבה הדמנות כזו.</p>
+                    <!--תמונה ריבאונד-->
+                    <div id="rebound"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>שעון זריקות</h3><p>שעון הבנוי כטיימר שמטרתו היא להגדיר את קצב המשחק וכך גם את מספר הנקודות. .</p>
+                    <!--תמונה זריקת שעון-->
+                    <div id="watch"></div>
+                </section>
+
+            </section>
+
+            <section>
+
+                <h2 id="cracktherules">לפצח את החוקים</h2>
+
+
+                <p class="pbold">איך תדעי מה באמת קורה במשחק? הנה כמה חוקים חשובים</p>
+
+                <section class="basketballconcept">
+                    <h3>כדור ביניים</h3>
+                    <p>יבוצע בין שני שחקנים. השופט זורק כדור לגובה, מעל לגובה שאליו יכולים הקופצים להגיע על הקופצים לטפוח בכדור לכיון הקבוצה היריבה.</p>
+                    <!--תמונה כדור ביניים-->
+                    <div id="Intermediateball"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>שלוש שניות</h3>
+                    <p>שחקן שקבוצתו שולטת בכדור, אינו יכול להימצא יותר משלוש שניות באזור הסל של הקבוצה היריבה.</p>
+                    <!--תמונה שלוש שניות-->
+                    <div id="threeseconds"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>עשרים וארבע שניות</h3>
+                    <p>קבוצה השולטת בכדור בתוך המגרש חייבת לקלוע לסל תוך 24 שניות. השופט מפעיל את מתקן 24 שניות אשר צופר בתום 24 שניות.  </p>
+                    <!--תמונה צופר-->
+                    <div id="klaxon"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>רגע, לא דיברנו על ניקוד בכלל</h3>
+                    <p>
+                        <b>קליעה רגילה-</b>  2 נקודות. <br />
+                        <b>קליעה מאחורי קשת השלוש-</b> 3 נקודות. <br /> סל כזה נקרא ''שלשה''. <br />
+                        <b>קליעת עונשין במקרה של עבירה-</b> 1 נקודות. <br />
+                    </p>
+                    <!--תמונה ניקוד-->
+                    <div id="basketballscore"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>מה עם קצת זמנים?</h3>
+                    <p>
+                        זמן המשחק הוא ארבעה רבעים של 10 דקות, כאשר בכל שריקה השעון נעצר. <br />
+                        אם המשחק נגמר בתוצאת תיקו, יש הארכה של 5 דקות. <br />
+                        בסיום ההארכה יש תוצאת תיקו, יש הארכה נוספת זהה. <br />
+                    </p>
+                    <!--תמונה שעון-->
+                    <div id="watchbasketball"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>תנועה עם הכדור</h3>
+                    <p>
+                        שחקן שנמצא עם הכדור בידיו במצב סטטי, יכול לקבוע רגל אחת כרגל ציר ולהזיז את הרגל השניה כרצונו. <br />
+
+                        שחקן הנע בכדרור או מקבל כדור תוך תנועה, יכול לעצור או למסור או לקלוע לסל תוך 2 נגיעות רצופות בקרקע. <br />
+
+                        שחקן שנע בכדרור או מכדרר במקום ותופס את הכדור (מסיים כדרור), אינו רשאי לכדרר שנית. <br />
+                    </p>
+                    <!--תמונה של תנועה עם הכדור-->
+                    <div id="movement"></div>
+                </section>
+
+                <section class="basketballconcept">
+                    <h3>שחקנים </h3>
+                    <p>
+                        בכל קבוצה יש 10 שחקנים. <br />
+                        במגרש משחקים עד 5 שחקנים מכל קבוצה. <br />
+                        קבוצה הנשארת עם שחקן אחד במגרש נפסלת ומפסידה. <br />
+                    </p>
+                    <!--תמונות שחקנים-->
+                    <div id="players"></div>
+                </section>
+
+            </section>
+
+        </article>
+        <footer>
+            <nav id="footermenu">
+                <ul>
+                    <li>
+                        <a href="about.html"> אודות</a>
+                        <div class="about"></div>
+                    </li>
+
+
+
+                    <li>
+                        <a href="contactus.html">צרי קשר</a>
+                        <div class="ContactUs"></div>
+                    </li>
+
+
+
+                    <li>
+                        <a class="notActive" aria-label="משחקים קרובים לא פעיל" href="#">משחקים קרובים</a>
+                        <div class=" Gamescomingsoon"></div>
+                    </li>
+
+
+
+                    <li>
+                        <a href="map.html">מפת האתר</a>
+                        <div class="map"></div>
+                    </li>
+
+
+                </ul>
+            </nav>
+
+            <p>   כל הזכויות שמורות   Goal Girls  ©  </p>
+
+        </footer>
+    </div>
+
+</body>
+</html>

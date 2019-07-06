@@ -1,0 +1,1640 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap');
+
+body {
+    direction: rtl;
+   
+}
+
+#container {
+    margin: 0 auto;
+    width: 1366px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    height: 60px;
+    background-color: #cccccc;
+}
+    header h1 {
+        height: 40px;
+        width: 240px;
+        float:right;
+    }
+    /*לוגו*/
+#alogo {
+    width: 300px;
+    display: inline-block;
+    font-size: 12pt;
+    color: black;
+    float: right;
+}
+#logo {
+    height: 56px;
+    padding-right: 10px;
+}
+
+/*תפריט ראשי*/
+#skip {
+    position: absolute;
+    z-index: 300;
+    right: 200px;
+    top: 10px;
+    font-size: 15px;
+    border: solid 1px black;
+    color: black;
+    opacity: 0;
+}
+#main {
+    float: left;
+    padding-top: 10px;
+}
+
+    #main ul li {
+        display: inline-block;
+        float: right;
+        margin: 0 auto;
+        height: 40px;
+    }
+
+        #main ul li a {
+            display: block;
+            background-color: #cccccc;
+            color: black;
+            width: 120px;
+            height: 40px;
+            padding-top: 12px;
+            text-decoration: none;
+            text-align: center;
+             font: bold 11pt 'Heebo Light';
+        }
+
+            #main ul li a:hover {
+                background-color: dimgrey;
+                color: white;
+                text-decoration: none;
+            }
+
+        #main ul li ul {
+            display: none;
+            position: absolute;
+            margin-right: -40px;
+        }
+
+        #main ul li:hover > ul {
+            display: block;
+            width: 120px;
+        }
+
+
+
+        /*תמונת פתיחה*/
+
+#openingimage {
+    background-image: url("../images/Opening image.jpg");
+    width: 600px;
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    float: none;
+    margin-top: 15px;
+    clear: both;
+}
+/*משפט פתיחה*/
+#openingsentence {
+    border: 2px solid #f3561e;
+    background-color: #f3561e;
+    
+    color: black;
+    width: 330px;
+    height: 50px;
+    font: bold 12pt 'heebo';
+    position: absolute;
+    margin-top: 96px;
+    margin-right: -141px;
+    padding-top: 10px;
+    text-align: center;
+}
+/*תפריט תמונות*/
+#second {
+    margin-top: -18px;
+}
+
+#second ul {
+    margin: 0 auto;
+    display: inline-block;
+    list-style: none
+}
+
+    #second ul li a {
+        height: 281px;
+        width: 586px;
+        display: block;
+    }
+
+
+
+.soccermenu {
+    background-image: url('../images/Black and white soccer.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    .soccermenu:hover {
+        background-image: url(../images/soccer.jpg)
+    }
+
+.basketballmenu {
+    background-image: url('../images/Black and white basketball.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+    .basketballmenu:hover {
+        background-image: url(../images/basketball.jpg)
+    }
+
+.tennismenu {
+    background-image: url('../images/Black and white tennis.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+}
+
+    .tennismenu:hover {
+        background-image: url(../images/tennis.jpg)
+    }
+
+.bowlingmenu {
+    background-image: url('../images/Black and white bowling.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    .bowlingmenu:hover {
+        background-image: url(../images/bowling.jpg)
+    }
+/*שמות לתפריט תמונות*/
+#second li {
+    display: inline-block;
+    margin-left: 56px;
+    height: 275px;
+    margin-right: 18px;
+}
+
+#second span {
+    display: inline-block;
+    float: left;
+    margin-top: 225px;
+   
+}
+
+    #second span a {
+        display: block;
+        background-color: #cccccc;
+        color: black;
+        width: 80px;
+        height: 40px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+    }
+
+
+
+.soccermenu span {
+    font: 26pt HEEBO;
+    color: black;
+    background-color: #cccccc;
+    height: 50PX;
+    width: 135PX;
+    padding-right: 22PX;
+    position: absolute;
+    margin-left: 435px;
+}
+
+#second ul li a:hover span {
+    background-color: #88d9b0;
+}
+
+.tennismenu span {
+    font: 26pt HEEBO;
+    color: black;
+    background-color: #cccccc;
+    height: 50PX;
+    width: 135PX;
+    padding-right: 35PX;
+    position: absolute;
+    margin-left: 435px;
+}
+
+    .tennismenu span:hover {
+        background-color: #88d9b0;
+    }
+
+.basketballmenu span {
+    font: 26pt HEEBO;
+    color: black;
+    background-color: #cccccc;
+    height: 50PX;
+    width: 135PX;
+    padding-right: 20PX;
+}
+
+    .basketballmenu span:hover {
+        background-color: #88d9b0;
+    }
+
+.bowlingmenu span {
+    font: 26pt HEEBO;
+    color: black;
+    background-color: #cccccc;
+    height: 50PX;
+    width: 135PX;
+    padding-right: 20PX;
+}
+
+    .bowlingmenu span:hover {
+        background-color: #88d9b0;
+    }
+
+
+    /*קרוסלה*/
+.carousel-item {
+    width: 100%;
+    height: 300px;
+    background-color: #cccccc;
+    margin-top: -15px;
+}
+
+.carousel-caption {
+    color: black;
+    margin-bottom: 37px;
+}
+.carousel-indicators{
+bottom: 50px;
+
+}
+.carousel-control-next-icon {
+    background-image: url('../images/arrow left.png');
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/arrow right.png');
+}
+
+#arrow1 {
+    background-image: url(../images/green.png);
+    background-size: 55%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-right: -42px;
+}
+
+#arrow2 {
+    background-image: url(../images/arrow2.png);
+    background-size: 55%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-right: 284px;
+}
+#arrow3 {
+    background-image: url(../images/arrow3.png);
+    background-size: 55%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-right: 598px;
+}
+#arrow4 {
+    background-image: url(../images/arrow4.png);
+    background-size: 55%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+     margin-right: 927px;
+    
+}
+
+#titlecarousel {
+    background-color: aquamarine;
+    font: 22pt 'Heebo Regular';
+    width: 180px;
+    text-align: center;
+    z-index: 4;
+}
+
+#topcarusel .Third {
+    background-color: #cccccc;
+    width:1366px;
+}
+#topcarusel {
+    background-color: #cccccc;
+    width: 1366px;
+    padding-top:10px;
+}
+.Light {
+    font: 20pt 'Heebo Light';
+    display: inline;
+}
+.bottomtitle {
+    display: inline;
+}
+.more{
+    margin-right:250px;
+}
+.pcarusel{
+    font-family:Heebo;
+    font-size:19px;
+}
+/*פוטר*/
+footer {
+    background-color: #737f67;
+    bottom: 0;
+    height: 60px;
+    clear: both;
+}
+
+#footermenu {
+    float: right;
+    padding-top: 11px;
+    position: absolute;
+}
+
+#footermenu ul li {
+display: inline-block;
+float: right;
+margin: 0 auto;
+height: 40px;
+
+}
+
+    #footermenu ul li a {
+        display: block;
+        color: black;
+        width: 120px;
+        height: 40px;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 31px;
+        font: bold 11pt 'Heebo Light';
+
+    }
+
+#footermenu ul li ul {
+display: none;
+position: absolute;
+margin-right: -40px;
+
+}
+
+footer p {
+    display: inline-block;
+    color: black;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+
+.about {
+    background-image: url(../images/about.png);
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -41px;
+    margin-right: 36px;
+}
+
+
+
+
+.ContactUs {
+    background-image: url(../images/ContactUs.png);
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    margin-right: 26px;
+}
+
+
+
+
+.Gamescomingsoon {
+    background-image: url(../images/Gamescomingsoon.png);
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -41px;
+    margin-right: 7px;
+}
+
+
+.map {
+    background-image: url(../images/map.png);
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -41px;
+    margin-right: 23px;
+}
+    
+
+/*לא פעיל*/
+.notActive {
+    cursor: not-allowed;
+}
+/*תפריט בעמודים פנימיים*/
+.buttons {
+    margin-right:600px;
+    
+}
+
+    .buttons ul li {
+        display: inline-block;
+        float:right;
+        margin: 0 auto;
+        width: 200px;
+        font-size: 20pt;
+        font-family: 'Heebo', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 30px;
+        margin-top:26px;
+    }
+
+    .buttons ul li a {
+        display: block;
+        background-color: #cccccc ;
+        color: black;
+        height: 80px;
+        width: 200px;
+        text-decoration: none;
+        padding-top: 25px;
+    }
+
+.basketballbuttons nav ul li a:hover {
+    background-color: #7d5120;
+    color: white;
+}
+.soocerbuttons nav ul li a:hover {
+    background-color: #395723;
+    color: white;
+}
+/*צבע נשאר בתפריט*/
+.currentPage {
+    background-color: dimgrey !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+    .currentpage nav ul li a:active {
+        background-color: dimgrey;
+    }
+    /*תפריט פירורי לחם*/
+nav ol li {
+    display: inline-block;
+    font: 20pt heebo;
+}
+    nav ol li a{
+        font:20pt heebo;
+    }
+    nav ol li:after {
+        content: ">";
+    }
+
+    nav ol li:last-child:after {
+        content: "";
+    }
+ 
+
+/*תפריט שלישי*/
+.Third {
+    float: right;
+    padding-top: 2px;
+}
+    .Third ul li {
+        display: inline-block;
+        float: right;
+        margin: 0 auto;
+        height: 40px;
+    }
+
+    .Third ul li {
+        display: block;
+        color: white;
+        width: 321px;
+        height: 40px;
+        padding-top: 1px;
+        text-decoration: none;
+        text-align: center;
+        font: bold 22pt 'Heebo Light';
+    }
+
+
+
+        .Third ul li ul {
+            display: none;
+            position: absolute;
+            margin-right: -40px;
+        }
+.Thirdsoccer {
+    background-color: #385723
+
+}
+.Thirdbasketball {
+    background-color: #8D8D66;
+}
+.Thirdtennis{
+background-color:#737f67
+
+}
+.Thirdbowling {
+    background-color: #3C6F8D;
+}
+/* עמוד כדורגל*/
+.pbold{
+    font:bold 25pt Heebo;
+    text-align:center;
+}
+
+.banersoccer {
+    background-image: url(../images/soccer.jpg);
+    background-position: center;
+    height: 300px;
+    width: 1366px;
+    font: 70pt 'Heebo Medium';
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.background {
+    background-color: ghostwhite;
+}
+.soccerconcept h3 {
+    text-align: center;
+    font: bold 30pt Heebo;
+    color: darkslategrey;
+    display: inline-block;
+    width: 429px;
+    float: right;
+}
+.soccerconcept {
+    margin-top: 100px;
+    background-color: #cadcbd;
+    float: right;
+    width: 429px;
+    margin: 10px;
+    height: 500px;
+    text-align: right;
+    font-size: 20pt;
+}
+
+.soccerconcept p{
+text-align:center;
+font:17pt Heebo; 
+}
+/*עושות סדר*/
+#makingorder {
+    clear: both;
+    font: bold 25pt heebo;
+    color: black;
+    background-color: #67ae8a;
+    height: 80px;
+    width: 1366px;
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 99px;
+    font: 50pt heebo;
+}
+
+
+
+
+/*לפצח את החוקים*/
+#cracktherules {
+    clear: both;
+    font: bold 25pt heebo;
+    color: black;
+    background-color: #67ae8a;
+    height: 80px;
+    width: 1366px;
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 99px;
+    font: 50pt heebo;
+    position:relative;
+}
+/*מבנה המגרש*/
+#structureofthefield {
+    font: bold 25pt heebo;
+    color: black;
+    background-color: #67ae8a;
+    height: 80px;
+    width: 1366px;
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 99px;
+    font: 50pt heebo;
+    clear: both;
+}
+
+
+/*תמונות כדורגל*/
+/*עושות סדר*/
+/*כדור*/
+#ballsoccer {
+    background-image: url(../images/ballsoccer.jpg);
+    width: 350px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+/*שער*/
+#goal {
+    background-image: url(../images/goal.jpeg);
+    width: 350px;
+    height: 250px;
+    background-size: 89%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 105px;
+}
+/*רחבה*/
+#wide {
+    background-image: url(../images/Wide.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: 97%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 106px;
+    margin-right: 8px;
+}
+/*קרן*/
+#keren {
+    background-image: url(../images/keren.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 63%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -122px;
+    margin-top: 8px;
+}
+/*פאול*/
+#faol {
+    background-image: url(../images/faol.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 63%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -126px;
+    margin-top: 73px;
+}
+
+/*פנדל*/
+#pendel {
+    background-image: url(../images/pendel.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 64%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -125px;
+    margin-top: 45px;
+}
+/*נבדל*/
+#nivdal {
+    background-image: url(../images/nivdal.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 76%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -95px;
+    margin-top: 36px;
+}
+/*בעיטה חופשית*/
+#freekick {
+    background-image: url(../images/freekick.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 67%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -119px;
+    margin-top: 35px;
+}
+/*מלך השערים*/
+#kingscorer {
+    background-image: url(../images/kingscorer.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 74%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -100px;
+    margin-top: 42px;
+}
+/*משחק בית*/
+#gamehouse {
+    background-image: url(../images/gamehouse.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 67%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -119px;
+    margin-top: 93px;
+}
+/*משחק חוץ*/
+#gameoutside {
+    background-image: url(../images/gameoutside.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 67%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -119px;
+    margin-top: 35px;
+}
+/*לפצח את החוקים*/
+/*כרטיסים*/
+#card {
+    background-image: url(../images/redandyellowcard.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 49%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -152px;
+    margin-top: -14px;
+}
+/*תוספת זמן*/
+#extratime2 {
+    background-image: url(../images/extratime2.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 37%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -199px;
+    margin-top: 36px;
+}
+/*הארכה*/
+#extratime {
+    background-image: url(../images/extratime.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 49%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -152px;
+    margin-top: 27px;
+}
+/*שופט*/
+#judge {
+    background-image: url(../images/judge.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 72%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -106px;
+    margin-top: 80px;
+}
+ul {
+    list-style: none;
+}
+/*מגרש כדורגל*/
+#soccerfield {
+    clear: both;
+    background-image: url(../images/soccerfield.jpeg);
+    width: 800px;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 139px;
+    margin-right: 293px;
+    
+    
+}
+
+
+#dot1 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    background-size: contain;
+    position: absolute;
+    margin-top: -460px;
+    margin-right: 1023px;
+    position: absolute;
+}
+
+#dot2 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -573px;
+    margin-right: 944px;
+    position: absolute;
+}
+#dot3 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -356px;
+    margin-right: 944px;
+    position: absolute;
+}
+#dot4 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -659px;
+    margin-right: 944px;
+    position: absolute;
+}
+#dot5 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -269px;
+    margin-right: 944px;
+    position: absolute;
+}
+#dot6 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -465px;
+    margin-right: 781px;
+    position: absolute;
+}
+#dot7 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -270px;
+    margin-right: 646px;
+    position: absolute;
+}
+
+#dot8 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -654px;
+    margin-right: 647px;
+    position: absolute;
+}
+
+#dot9 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -462px;
+    margin-right: 617px;
+    position: absolute;
+}
+#dot10 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -548px;
+    margin-right: 457px;
+    position: absolute;
+}
+#dot11 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -374px;
+    margin-right: 459px;
+    position: absolute;
+}
+.showhide_kepper section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    position: absolute;
+}
+.showhide_stop section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_stop2 section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_shield section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_shield2 section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_back section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_midfielder section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_midfielder2 section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+
+.showhide_front section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_striker section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_striker2 section {
+    display: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -512px;
+    margin-right: 944px;
+    position: absolute;
+}
+.showhide_kepper:hover .tooltip1 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: -5px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_stop:hover .tooltip2 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -530px;
+    margin-right: 890px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_stop2:hover .tooltip3 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -300px;
+    margin-right: 990px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_shield:hover .tooltip4 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -600px;
+    margin-right: 890px;
+    position: absolute;
+    display: inline-block;
+    }
+
+.showhide_shield2:hover .tooltip5 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -200px;
+    margin-right: 890px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_back:hover .tooltip6 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -400px;
+    margin-right: 730px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_midfielder:hover .tooltip7 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -200px;
+    margin-right: 590px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_midfielder2:hover .tooltip8 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -600px;
+    margin-right: 590px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_front:hover .tooltip9 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -400px;
+    margin-right: 550px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_striker:hover .tooltip10 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -500px;
+    margin-right: 400px;
+    position: absolute;
+    display: inline-block;
+}
+.showhide_striker2:hover .tooltip11 {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    color: white;
+    font: 10pt Heebo;
+    text-align: center;
+    margin-top: -320px;
+    margin-right: 400px;
+    position: absolute;
+    display: inline-block;
+}
+    /*כדורסל עמוד*/
+    .banerbasketball {
+    background-image: url(../images/basketball.jpg);
+    background-position: center;
+    height: 300px;
+    width: 1366px;
+    font: 70pt 'Heebo Medium';
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+    .basketballconcept h3 {
+    text-align: center;
+    font: bold 30pt Heebo;
+    color: darkslategrey;
+    display: inline-block;
+    width: 429px;
+    float: right;
+}
+    .basketballconcept p {
+    text-align: center;
+    font: 17pt Heebo;
+    
+}
+
+.basketballconcept {
+    margin-top: 100px;
+    background-color: #cadcbd;
+    float: right;
+    width: 429px;
+    margin: 10px;
+    height: 500px;
+    text-align: right;
+    font-size: 20pt;
+}
+
+
+/*תמונות כדורסל
+/*איירבול*/
+#airball {
+    background-image: url(../images/airball.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 72%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -103px;
+    margin-top: 90px;
+}
+/*בנק שוט*/
+#bankshot {
+    background-image: url(../images/bankshot.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 77%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -93px;
+    margin-top: 58px;
+}
+/*מסירת בייסבול*/
+#baseball {
+    background-image: url(../images/baseball.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 74%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -100px;
+    margin-top: 90px;
+}
+/*בייסליין*/
+#baseline {
+    background-image: url(../images/baseline.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 67%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -120px;
+    margin-top: 24px;
+}
+/*מסירת חזה*/
+#passaball {
+    background-image: url(../images/passaball.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 76%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -96px;
+    margin-top: 23px;
+}
+/*קליעת עונשין*/
+#shootingpenalty {
+    background-image: url(../images/shootingpenalty.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 56%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -148px;
+    margin-top: -11px;
+}
+/*קשת השלוש*/
+#rainbowthree {
+    background-image: url(../images/rainbowthree.jpeg);
+    width: 500px;
+    height: 400px;
+    background-size: 71%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -108px;
+    margin-top: 77px;
+}
+/*תמונה שלשה*/
+#Three {
+    background-image: url(../images/Three.JPG);
+    width: 500px;
+    height: 400px;
+    background-size: 77%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -93px;
+    margin-top: 62px;
+}
+/*חטיפה*/
+#snatch {
+    background-image: url(../images/snatch.JPeG);
+    width: 500px;
+    height: 400px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -112px;
+    margin-top: 89px;
+}
+/*תמונה חסימה*/
+#obstruction {
+    background-image: url(../images/obstruction.JPG);
+    width: 500px;
+    height: 400px;
+    background-size: 74%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -101px;
+    margin-top: 48px;
+}
+/*לייאפ*/
+#layup {
+    background-image: url(../images/layup.JPeG);
+    width: 500px;
+    height: 400px;
+    background-size: 58%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -139px;
+    margin-top: -20px;
+}
+/*הטבעה*/
+#hit {
+    background-image: url(../images/hit.JPG);
+    width: 500px;
+    height: 400px;
+    background-size: 71%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -109px;
+    margin-top: 100px;
+}
+/*זריקת וו*/
+#hookvav {
+    background-image: url(../images/hookvav.JPeG);
+    width: 500px;
+    height: 400px;
+    background-size: 73%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -102px;
+    margin-top: 59px;
+}
+/*ריבאונד*/
+#rebound {
+    background-image: url(../images/rebound.JPeG);
+    width: 500px;
+    height: 400px;
+    background-size: 61%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -137px;
+    margin-top: -14px;
+}
+/*שעון זריקות*/
+#watch {
+    background-image: url(../images/watch.JPeG);
+    width: 500px;
+    height: 400px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -124px;
+    margin-top: -15px;
+}
+
+/*לפצח את החוקים*/
+/*כדור ביניים*/
+#Intermediateball {
+    background-image: url(../images/Intermediateball.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 38%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -191px;
+    margin-top: -15px;
+}
+/*שלוש שניות*/
+#threeseconds {
+    background-image: url(../images/threeseconds.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -124px;
+    margin-top: -15px;
+}
+/*עשרים וארבע שניות*/
+#klaxon {
+    background-image: url(../images/klaxon.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 62%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -131px;
+    margin-top: 49px;
+}
+/*ניקוד*/
+#basketballscore {
+    background-image: url(../images/basketballscore.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 43%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -182px;
+    margin-top: -15px;
+}
+/*זמנים*/
+#watchbasketball {
+    background-image: url(../images/watchbasketball.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -172px;
+    margin-top: -15px;
+}
+/*תנועה עם הכדור*/
+#movement {
+    background-image: url(../images/movement.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 31%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -209px;
+    margin-top: -15px;
+}
+/*שחקנים*/
+#players {
+    background-image: url(../images/players.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: -124px;
+    margin-top: -15px;
+}
+/*עמוד צרי קשר*/
+.required {
+    color: #AD0003;
+    FONT-WEIGHT: bold;
+}
+#banercontactus {
+    background-image: url(../images/contact.jpg);
+    background-position: center;
+    height: 400px;
+    width: 1366px;
+    font: 70pt 'Heebo Medium';
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+input[type ='text'] {
+    display: block;
+    margin-bottom: 15px;
+    font: 18px 'Heebo';
+    width:400px;
+}
+
+#myMS {
+    display: block;
+    margin-bottom: 15px;
+    font: 18px 'Heebo';
+    width: 400px;
+    height:200px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+    
+}
+
+#contact h1 {
+    font: bold 70pt 'Heebo';
+    text-align:center;
+    padding-bottom: 20px;
+    color:white;
+    
+    
+}
+
+#contact p {
+    
+    font: 15pt 'Heebo';
+    margin-right: 50px;
+    
+}
+
+form {
+    border: 4px solid black;
+    padding-bottom:20px;
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 300px;
+    position:relative;
+    
+}
+
+#Send {
+    margin-right: 100px;
+    height: 100px;
+    width: 100px;
+    font: 25pt 'Heebo';
+}
+/*אודות*/
+#aboutphoto {
+background-image: url(../images/aboutphoto.jpg);
+background-position:center;
+height: 400px;
+width: 1366px;
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0 auto; 
+font: bold 70pt 'Heebo';
+text-align: center;
+
+}
+#pabout {
+    font: 15pt 'Heebo';
+    margin-right: 50px;
+    margin-top:200px;
+    padding-bottom:400px;
+}
+
+#titalabout {
+    font: bold 60pt 'Heebo';
+    margin-top: -274px;
+    text-align: center;
+}
+/*לוגו HIT*/
+#logohit {
+    background-image: url(../images/logohit.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-right: 300px;
+}
+#tlm{
+margin-right:510px;
+}
+/*עמוד מפת האתר*/
+/*באנר*/
+#webmap {
+    background-image: url(../images/webmap.jpg);
+    background-position: center;
+    height: 400px;
+    width: 1366px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font: bold 70pt 'Heebo';
+    text-align: center;
+}
+
+
+.webmap ul a {
+    font: 18pt Heebo;  
+}
+
+.webmap .listimg {
+    margin: 0;
+    list-style: none;
+    background-image: url(../images/logoul.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40px;
+}
+
+.webmap a {
+    margin-right: 52px;
+    color:black;
+}
+.webmap p{
+    font: bold 27pt Heebo;
+    text-align:center;
+}

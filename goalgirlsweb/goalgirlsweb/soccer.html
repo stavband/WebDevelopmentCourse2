@@ -1,0 +1,356 @@
+﻿<!doctype html>
+<html lang="hr">
+<head>
+    <meta charset="utf-8" />
+    <title>Goal Girls-כדורגל</title>
+    <meta name="description" content="הבנת משחק הכדורגל" />
+    <meta name="keywords" content="משחק הכדורגל,מושגים,כדורגל,למידה, חוקים,מבנה המגרש, מגרש" />
+    <meta name="author" content="Hadar Sivi, Stav Band, Mirit Elimelech" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="icon" href="images/logotop.png">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+<!--דלג לתוכן העמוד-->
+<body onload="tab_nav()">
+    <div id="container">
+        <a id="skip" href="#mainContent">דלג לתוכן העמוד</a>
+
+        <header>
+            <!--לוגו-->
+            <a id="alogo" href="index.html">
+                <img id="logo" src="images/logo.png" alt="Goal Girls logo" aria-label="לחצי לדף הבית" /> - פשוט להבין
+            </a>
+
+            <!--תפריט ראשי-->
+            <nav id="main"aria-label="תפריט ראשי">
+                <ul>
+
+                    <li>
+                        <a class="notActive currentPage" aria-label="משחקי כדור לא פעיל" href="#"> משחקי כדור </a>
+                        <ul>
+                            <li> <a href="soccer.html"> כדורגל </a> </li>
+                            <li> <a href="basketball.html"> כדורסל </a> </li>
+                            <li> <a class="notActive" aria-label="טניס לא פעיל" href="#"> טניס </a> </li>
+                            <li> <a class="notActive" aria-label="באולינג לא פעיל" href="#"> באולינג </a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="notActive" aria-label="קבוצות פופולאריות לא פעיל" href="#"> קבוצות פופולאריות </a>
+                        <ul>
+                            <li><a class="notActive" aria-label="קבוצות כדורגל לא פעיל" href="#"> קבוצות כדורגל </a></li>
+                            <li><a class="notActive" aria-label="קבוצות כדורסל לא פעיל" href="#"> קבוצות כדורסל </a></li>
+                            <li><a class="notActive" aria-label=" שחקני טניס לא פעיל" href="#"> שחקני טניס </a></li>
+                            <li><a class="notActive" aria-label="שחקני באולינג לא פעיל" href="#"> שחקני באולינג </a></li>
+                        </ul>
+                    </li>
+                    <li> <a class="notActive" aria-label="משחקים קרובים לא פעיל" href="#"> משחקים קרובים </a> </li>
+                    <li>
+                        <a class="notActive" aria-label="אביזרים נלווים לא פעיל" href="#"> אביזרים נלווים </a>
+                        <ul>
+                            <li><a class="notActive" aria-label="אביזרים כדורגל לא פעיל" href="#"> אביזרים כדורגל </a></li>
+                            <li><a class="notActive" aria-label="אביזרים כדורסל לא פעיל" href="#"> אביזרים כדורסל </a></li>
+                            <li><a class="notActive" aria-label="אביזרים טניס לא פעיל" href="#"> אביזרים טניס </a></li>
+                            <li><a class="notActive" aria-label="אביזרים באולינג לא פעיל" href="#"> אביזרים באולינג </a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="about.html"> אודות </a> </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!--תחילת עמוד התוכן-->
+        <article id="mainContent">
+
+            <h1 class="banersoccer">כדורגל</h1>
+
+            <nav>
+                <ol>
+                    <li> <a href="index.html"> דף הבית </a> </li>
+                    <li> <a class="notActive" aria-label="משחקי כדור לא פעיל" href="#"> משחקי כדור</a> </li>
+                    <li>כדורגל</li>
+
+                </ol>
+            </nav>
+
+
+            <nav class="buttons soocerbuttons">
+                <ul>
+                    <li> <a href="#makingorder"aria-label="לחצי לתוכן עושות סדר" >עושות סדר</a></li>
+                    <li> <a href="#cracktherules"aria-label="לחצי לתוכן לפצח את החוקים">לפצח את החוקים</a></li>
+                    <li> <a href="#structureofthefield"aria-label="לחצי לתוכן מבנה המגרש">מבנה המגרש</a></li>
+                </ul>
+            </nav>
+
+
+            <!--עושות סדר-->
+            <section>
+
+                <h2 id="makingorder">עושות סדר</h2>
+
+
+                <section class="soccerconcept">
+                    <h3>כדור  </h3><p>צורה אליפטית המעוצבת במגוון סגנונות. <br /> <strong>חשוב לדעת!</strong> הכדור חייב להיות בהיקף ומשקל ספציפיים על מנת להתחיל את המשחק. </p>
+                    <!--תמונה של כדור-->
+                    <div id="ballsoccer"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>שער </h3><p>השער בנוי בצורה מלבנית, הוא ממוקם במרכז קו הרוחב מכל צד של המגרש.</p>
+                    <!--תמונה של שער-->
+                    <div id="goal"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>רחבה </h3><p>מסביב לשער, ישנה רחבת עונשין באורך של 16 מטרים ובתוכה רחבת שער באורך של 5 מ''ר.</p>
+                    <div id="wide"></div>
+                    <!-- תמונה של שער ורחבה -->
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>קרן </h3><p> פעולה שמתבצעת כשהכדור יוצא מקו השער ע"י שחקני הקבוצה שבשטחה המשחק מתנהל. אם יצא הכדור, שמים אותו בקצה המגרש ומתחילים לשחק משם.</p>
+                    <div id="keren"></div>
+                    <!-- תמונה של קרן -->
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>פאול </h3>  <p>.עבירה שמתבצעת כשאחד השחקנים עובר על אחד מחוקי המשחק</p>
+                    <!--תמונה של פאול-->
+                    <div id="faol"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>פנדל</h3>  <p> אם השחקן נמצא ברחבת היריב ופגעו בו פיזית, שורקים לפנדל, ולכל שחקן מהקבוצה התוקפת ניתנת האפשרות להבקיע גול מול השוער. </p>
+                    <!-- תמונה של פנדל -->
+                    <div id="pendel"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>נבדל </h3><p> בשם הלועזי "אופסייד" כששחקן עומד בין הגנת היריב לבין השער וכן אחרי קו הכדור ואז הוא מקבל מסירה הוא נמצא בעמדת נבדל. הוא כאילו "עוקף" </p>
+                    <div id="nivdal"></div>
+                    <!-- תמונה של נבדל  -->
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>בעיטה חופשית </h3><p> עונש הניתן על עבירה והתנהגות בלתי הולמת שמבצע שחקן במהלך המשחק. הבעיטה ניתנת לקבוצה היריבה ונבעטת ממקום התרחשות העבירה.</p>
+                    <div id="freekick"></div>
+                    <!--תמונה של בעיטה חופשית-->
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>מלך השערים </h3><p> תואר הניתן לספורטאי אשר הבקיע את מספר השערים הרב ביותר במסגרת טורניר, ליגה, מועדון או במדינה מסוימת במשך תקופה מסוימת.</p>
+                    <!--תמונה של מלך השערים-->
+                    <div id="kingscorer"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>משחק בית </h3><p> משחק באצטדיון של אחת מהקבוצות. זו שמשחקים בעיר שלה היא קבוצת הבית.</p>
+                    <!--תמונה של משחק בית-->
+                    <div id="gamehouse"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>משחק חוץ </h3><p> משחק חוץ - משחק באצטדיון של אחת הקבוצות. בשביל הקבוצה האורחת זה משחק חוץ. </p>
+                    <!--תמונה של משחק חוץ-->
+                    <div id="gameoutside"></div>
+                </section>
+
+            </section>
+
+            <!--לפצח את החוקים-->
+            <section>
+                <h2 id="cracktherules"> לפצח את החוקים</h2>
+
+                <p class="pbold">בואי נבין מה קורה תכלס במשחק, מה התפקיד של כל אחד?</p>
+
+
+                <section class="soccerconcept">
+                    <h3>כרטיסים </h3>
+                    <p>
+                        כרטיס צהוב - כאשר  שחקן מבצע עבירה הוא מקבל אזהרה.<br />
+                        <br /> כרטיס אדום - כששחקן מורחק מן המגרש. הכרטיס נשלף כעונש על עבירה חמורה במיוחד, שתי עבירות בינונית או התנהגות בלתי הולמת (קללות, אלימות וכו')
+                    </p>
+                    <div id="card"></div>
+                    <!-- תמונה של כרטיסים -->
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>תוספת זמן</h3>
+                    <p> פרק זמן שמתווסף בסיום כל מחצית בהתאם להתרחשות המשחק.</p>
+                    <!-- תמונה תוספת זמן-->
+                    <div id="extratime2"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>הארכה</h3>
+                    <p>משחק כדורגל מסתיים לאחר 90 דקות, במידה ויש שוויון בתום הזמן, נוספת הארכה למשחק בת 30 דקות</p>
+                    <!--תמונה הארכה-->
+                    <div id="extratime"></div>
+                </section>
+
+                <section class="soccerconcept">
+                    <h3>שופט</h3>
+                    <p>שופט במשחק האוכף את חוקי המשחק שנקבעו בחוקת משחק הכדורגל</p>
+                    <!--תמונה של שופט-->
+                    <div id="judge"></div>
+                </section>
+            </section>
+
+
+            <!--מבנה המגרש-->
+            <section id="field">
+
+
+                <h2 id="structureofthefield"> מבנה המגרש</h2>
+
+                <p class="pbold">יש ללחוץ על העיגולים השחורים על מנת לחשוף את התפקידים</p>
+                <!--תמונה של מגרש כדורגל-->
+                <div id="soccerfield" aria-label="תמונה של מגרש כדורגל"></div>
+
+
+                <div class="showhide_kepper" aria-label="שוער-מגן על השער של קבוצתו מפני ספיגה של כדורים ">
+                    <div id="dot1">
+                        <section class="tooltip1">
+                            <h2>שוער</h2>
+                            <p>מגן על השער של קבוצתו מפני ספיגה של כדורים</p>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="showhide_stop" aria-label="בלם-בולם את השחקן היריב ומונע ממנו הזדמנויות להבקיע גול">
+                    <div id="dot2"></div>
+                    <section class="tooltip2">
+                        <h2>בלם</h2>
+                        <p>בולם את השחקן היריב ומונע ממנו הזדמנויות להבקיע גול.</p>
+                    </section>
+                </div>
+
+                <div class="showhide_stop2"aria-label="בלם-בולם את השחקן היריב ומונע ממנו הזדמנויות להבקיע גול">
+                    <div id="dot3"></div>
+                    <section class=tooltip3>
+                        <h2>בלם</h2>
+                        <p>בולם את השחקן היריב ומונע ממנו הזדמנויות להבקיע גול.</p>
+                    </section>
+                </div>
+
+                <div class="showhide_shield" aria-label="מגן-נמצא בצדדיו של קו ההגנה ועוזר למהלכים התקפיים">
+                    <div id="dot4"></div>
+                    <section class=tooltip4>
+                        <h2>מגן</h2>
+                        <p>נמצא בצדדיו של קו ההגנה ועוזר למהלכים התקפיים</p>
+                    </section>
+                </div>
+
+                <div class="showhide_shield2"aria-label="מגן2-נמצא בצדדיו של קו ההגנה ועוזר למהלכים התקפיים">
+                    <div id="dot5"></div>
+                    <section class=tooltip5>
+                        <h2>מגן</h2>
+                        <p>נמצא בצדדיו של קו ההגנה ועוזר למהלכים התקפיים</p>
+                    </section>
+                </div>
+
+                <div class="showhide_back" aria-label="קשר אחורי-בהתאם למיקומו הוא יוצר מהלכים, לרוב המשחק יתחיל ממנו">
+                    <div id="dot6"></div>
+                    <section class=tooltip6>
+                        <h2>קשר אחורי</h2>
+                        <p>בהתאם למיקומו הוא יוצר מהלכים, לרוב המשחק יתחיל ממנו.</p>
+                    </section>
+                </div>
+
+                <div class="showhide_midfielder" aria-label="קשר-בהתאם למיקומו הוא יוצר מהלכים, לרוב המשחק יתחיל ממנו">
+                    <div id="dot7"></div>
+                    <section class=tooltip7>
+                        <h2>קשר </h2>
+                        <p>בהתאם למיקומו הוא יוצר מהלכים, לרוב המשחק יתחיל ממנו.</p>
+                    </section>
+                </div>
+
+                <div class="showhide_midfielder2" aria-label="קשר2-בהתאם למיקומו הוא יוצר מהלכים, לרוב המשחק יתחיל ממנו">
+                    <div id="dot8"></div>
+                    <section class=tooltip8>
+                        <h2>קשר </h2>
+                        <p>בהתאם למיקומו הוא יוצר מהלכים, לרוב המשחק יתחיל ממנו.</p>
+                    </section>
+                </div>
+
+                <div class="showhide_front" aria-label="קשר קדמי-מלך הכיתה תפקידו ליצור מהלכים שיסתיימו כגול">
+                    <div id="dot9"></div>
+                    <section class=tooltip9>
+                        <h2>קשר קדמי </h2>
+                        <p>"מלך הכיתה" תפקידו ליצור מהלכים שיסתיימו כגול</p>
+                    </section>
+                </div>
+
+                <div class="showhide_striker" aria-label="חלוץ-מבקיע את השער של הקבוצה בעל יכולות נגיחה ובעיטה גבוהות">
+                    <div id="dot10"></div>
+                    <section class=tooltip10>
+                        <h2>חלוץ </h2>
+                        <p>מבקיע את השער של הקבוצה בעל יכולות נגיחה ובעיטה גבוהות</p>
+                    </section>
+                </div>
+
+                <div class="showhide_striker2" aria-label="חלוץ2-מבקיע את השער של הקבוצה בעל יכולות נגיחה ובעיטה גבוהות ">
+                    <div id="dot11"></div>
+                    <section class=tooltip11>
+                        <h2>חלוץ </h2>
+                        <p>מבקיע את השער של הקבוצה בעל יכולות נגיחה ובעיטה גבוהות</p>
+                    </section>
+                </div>
+
+
+            </section>
+
+        </article>
+
+
+        <footer>
+            <nav id="footermenu">
+                <ul>
+                    <li>
+                        <a href="about.html"> אודות</a>
+                        <div class="about"></div>
+                    </li>
+
+
+
+                    <li>
+                        <a href="contactus.html">צרי קשר</a>
+                        <div class="ContactUs"></div>
+                    </li>
+
+
+
+                    <li>
+                        <a class="notActive" aria-label="משחקים קרובים לא פעיל" href="#">משחקים קרובים</a>
+                        <div class=" Gamescomingsoon"></div>
+                    </li>
+
+
+
+                    <li>
+                        <a href="map.html">מפת האתר</a>
+                        <div class="map"></div>
+                    </li>
+
+
+                </ul>
+            </nav>
+
+            <p>   כל הזכויות שמורות   Goal Girls  ©  </p>
+
+        </footer>
+    </div>
+
+</body>
+</html>
